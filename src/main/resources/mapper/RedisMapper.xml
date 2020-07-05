@@ -1,0 +1,8 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.idt.dao.RedisDao">
+<select id="getlist" resultType="map">
+    select * from xsjbxx where xjh='G65312119980910064X'
+</select>
+</mapper>
